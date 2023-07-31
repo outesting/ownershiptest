@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ownershiptest"
+  description: "Testing ownership things"
+  annotations:
+    github.com/project-slug: outesting/ownershiptest
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/testteam"

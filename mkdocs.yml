@@ -1,0 +1,8 @@
+site_name: ownershiptest
+site_description: Testing ownership things
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
